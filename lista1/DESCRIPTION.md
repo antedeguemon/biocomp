@@ -9,3 +9,9 @@ conhecidas ou adicionando em uma array quando nao sao.
 Contadores: {'A': 17146584, 'C': 11918693, 'T': 17132531, 'G': 11909449}
 Sim, caracteres diferentes encontrados: ['N']
 ```
+
+### 1.c
+Por ser intensivo, nao consigo usar um modo direto de executar este algoritmo, pois
+nao tenho memoria o suficiente para armazenar tudo.
+Como o arquivo tem 58109653 caracteres, foi possivel dividi-lo por 7 partes iguais,
+ficando cada parte com 8301379 caracteres. 

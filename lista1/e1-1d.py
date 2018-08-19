@@ -1,4 +1,6 @@
-with open("sequence.fasta", "r") as f:
+import sys
+
+with open(sys.argv[1], "r") as f:
 	 lines = f.readlines()
 lines = "".join(lines[1:]).replace("\n", "")
 counters = {'A': 0, 'C': 0, 'T': 0, 'G': 0}

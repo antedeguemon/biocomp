@@ -2,17 +2,9 @@ import sys
 
 def complementar(seq):
 	nova_seq = ""
+	dic = {"A": "T", "C": "G", "G": "C", "T": "A"}
 	for i in range(len(seq)):
-		if seq[i] == "A":
-			nova_seq += "T"
-		elif seq[i] == "C":
-			nova_seq += "G"
-		elif seq[i] == "T":
-			nova_seq += "A"
-		elif seq[i] == "G":
-			nova_seq += "C"
-		else:
-			nova_seq += "N"
+		nova_seq += dic[seq[i]]
 	return nova_seq
 
 def is_palindromo(seq):
@@ -22,9 +14,11 @@ with open(sys.argv[1], "r") as f:
 	 lines = f.readlines()
 lines = "".join(lines[1:]).replace("\n", "")
 palindromos = {}
-for i in range(len(lines)-9):
-	seq = lines[i:i+9]
-	if is_palindromo(complementar(seq)):
+for i in range(len(lines)-10):
+	seq = lines[i:i+10]
+	if "N" in seq:
+		continue
+	if (seq[::-1] == complementar(seq)):
 		if seq in palindromos:
 			palindromos[seq] += 1
 		else:

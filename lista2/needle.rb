@@ -1,25 +1,10 @@
 s1 = "VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY"
 s2 = "VLSAADKTNVKAAWSKVGGHAGEYGAEALERMFLGFPTTKTYFPHFDLSHGSAQVKAHGKKVGDALTLAVGHLDDLPGALSNLSDLHAHKLRVDPVNFKLLSHCLLSTLAVHLPNDFTPAVHASLDKFLSSVSTVLTSKYR"
 
-
 w = -4
 def s(a,b)
-  return 5 if a == b # match score
-  -3 # mismatch score
-end
-
-s_matrix = (0..s1.length).map {(0..s2.length).map { |_| 0 }}
-(0..s1.length).each { |i| s_matrix[i][0] = w * i }
-(0..s2.length).each { |i| s_matrix[0][i] = w * i }
-
-# it is naturally m+1 since it is inclusive
-(1..s1.length).each do |i|
-  (1..s2.length).each do |j|
-    a = s_matrix[i-1][j-1] + s(s1[i-1], s2[j-1])
-    b = s_matrix[i-1][j] + w
-    c = s_matrix[i][j-1] + w
-    s_matrix[i][j] = [a, b, c].max
-  end
+  return 5 if a == b # match
+  -3 # mismatch
 end
 
 def distance(s, w)
@@ -56,6 +41,20 @@ def traceback(matrix, s1, s2, a1='', a2='', i=s1.length, j=s2.length)
   elsif matrix[i][j] == cima + (-4)
     # cima -> xi alinhado com espaco
     traceback(matrix, s1, s2, a1+'-', a2+s2[j-1], i, j-1)
+  end
+end
+
+s_matrix = (0..s1.length).map {(0..s2.length).map { |_| 0 }}
+(0..s1.length).each { |i| s_matrix[i][0] = w * i }
+(0..s2.length).each { |i| s_matrix[0][i] = w * i }
+
+# n+1 porque intervalo fechado
+(1..s1.length).each do |i|
+  (1..s2.length).each do |j|
+    a = s_matrix[i-1][j-1] + s(s1[i-1], s2[j-1])
+    b = s_matrix[i-1][j] + w
+    c = s_matrix[i][j-1] + w
+    s_matrix[i][j] = [a, b, c].max
   end
 end
 

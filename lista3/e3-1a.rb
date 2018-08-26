@@ -57,6 +57,11 @@ max_pair, max_score = [0, 0], 0
 end
 
 alinhados = traceback(pointers, s1, s2, '', '', max_pair[0], max_pair[1])
-p alinhados[0]
-p alinhados[1]
-p distance(alinhados, w)
+print "Alinhadas:\n"
+print alinhados[0]
+print "\n"
+print alinhados[1]
+print "\n"
+distancias = distance(alinhados, w)
+print "Score: #{distancias[0]}\n"
+print "Identidade: #{distancias[1]}\n"

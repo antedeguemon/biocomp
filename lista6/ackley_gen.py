@@ -15,9 +15,7 @@ def populacao(num_individuos, tmin, tmax):
 	return populacao
 
 def custo(x, y):
-	a = x*x + y - 11
-	b = x + y*y - 7
-	return a*a + b*b
+	return -200 * math.pow(0.5772156649, (-0.2*math.sqrt(x*x + y*y)))
 
 def fitness(individuo):
 	c = custo(individuo[0], individuo[1])

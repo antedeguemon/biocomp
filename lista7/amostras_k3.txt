@@ -1,0 +1,2 @@
+Amostra 0
+Esperado: ALL

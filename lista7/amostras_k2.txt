@@ -1,0 +1,288 @@
+Amostra 0
+Esperado: ALL
+Obtido: AML
+
+Amostra 1
+Esperado: ALL
+Obtido: AML
+
+Amostra 2
+Esperado: ALL
+Obtido: ALL
+
+Amostra 3
+Esperado: ALL
+Obtido: ALL
+
+Amostra 4
+Esperado: ALL
+Obtido: ALL
+
+Amostra 5
+Esperado: ALL
+Obtido: AML
+
+Amostra 6
+Esperado: ALL
+Obtido: ALL
+
+Amostra 7
+Esperado: ALL
+Obtido: ALL
+
+Amostra 8
+Esperado: ALL
+Obtido: ALL
+
+Amostra 9
+Esperado: ALL
+Obtido: ALL
+
+Amostra 10
+Esperado: ALL
+Obtido: ALL
+
+Amostra 11
+Esperado: ALL
+Obtido: AML
+
+Amostra 12
+Esperado: ALL
+Obtido: ALL
+
+Amostra 13
+Esperado: ALL
+Obtido: ALL
+
+Amostra 14
+Esperado: ALL
+Obtido: ALL
+
+Amostra 15
+Esperado: ALL
+Obtido: ALL
+
+Amostra 16
+Esperado: ALL
+Obtido: ALL
+
+Amostra 17
+Esperado: ALL
+Obtido: AML
+
+Amostra 18
+Esperado: ALL
+Obtido: AML
+
+Amostra 19
+Esperado: ALL
+Obtido: ALL
+
+Amostra 20
+Esperado: AML
+Obtido: AML
+
+Amostra 21
+Esperado: AML
+Obtido: AML
+
+Amostra 22
+Esperado: AML
+Obtido: AML
+
+Amostra 23
+Esperado: AML
+Obtido: AML
+
+Amostra 24
+Esperado: AML
+Obtido: AML
+
+Amostra 25
+Esperado: AML
+Obtido: AML
+
+Amostra 26
+Esperado: AML
+Obtido: AML
+
+Amostra 27
+Esperado: AML
+Obtido: AML
+
+Amostra 28
+Esperado: AML
+Obtido: AML
+
+Amostra 29
+Esperado: AML
+Obtido: AML
+
+Amostra 30
+Esperado: AML
+Obtido: ALL
+
+Amostra 31
+Esperado: AML
+Obtido: AML
+
+Amostra 32
+Esperado: AML
+Obtido: AML
+
+Amostra 33
+Esperado: AML
+Obtido: AML
+
+Amostra 34
+Esperado: ALL
+Obtido: AML
+
+Amostra 35
+Esperado: ALL
+Obtido: AML
+
+Amostra 36
+Esperado: ALL
+Obtido: AML
+
+Amostra 37
+Esperado: ALL
+Obtido: AML
+
+Amostra 38
+Esperado: ALL
+Obtido: ALL
+
+Amostra 39
+Esperado: ALL
+Obtido: AML
+
+Amostra 40
+Esperado: ALL
+Obtido: AML
+
+Amostra 41
+Esperado: ALL
+Obtido: AML
+
+Amostra 42
+Esperado: ALL
+Obtido: AML
+
+Amostra 43
+Esperado: ALL
+Obtido: AML
+
+Amostra 44
+Esperado: ALL
+Obtido: AML
+
+Amostra 45
+Esperado: ALL
+Obtido: AML
+
+Amostra 46
+Esperado: ALL
+Obtido: ALL
+
+Amostra 47
+Esperado: ALL
+Obtido: AML
+
+Amostra 48
+Esperado: ALL
+Obtido: ALL
+
+Amostra 49
+Esperado: ALL
+Obtido: ALL
+
+Amostra 50
+Esperado: ALL
+Obtido: AML
+
+Amostra 51
+Esperado: ALL
+Obtido: AML
+
+Amostra 52
+Esperado: ALL
+Obtido: ALL
+
+Amostra 53
+Esperado: ALL
+Obtido: ALL
+
+Amostra 54
+Esperado: ALL
+Obtido: ALL
+
+Amostra 55
+Esperado: ALL
+Obtido: AML
+
+Amostra 56
+Esperado: ALL
+Obtido: AML
+
+Amostra 57
+Esperado: ALL
+Obtido: ALL
+
+Amostra 58
+Esperado: ALL
+Obtido: AML
+
+Amostra 59
+Esperado: ALL
+Obtido: ALL
+
+Amostra 60
+Esperado: ALL
+Obtido: AML
+
+Amostra 61
+Esperado: AML
+Obtido: AML
+
+Amostra 62
+Esperado: AML
+Obtido: AML
+
+Amostra 63
+Esperado: AML
+Obtido: AML
+
+Amostra 64
+Esperado: AML
+Obtido: AML
+
+Amostra 65
+Esperado: AML
+Obtido: AML
+
+Amostra 66
+Esperado: AML
+Obtido: AML
+
+Amostra 67
+Esperado: AML
+Obtido: ALL
+
+Amostra 68
+Esperado: AML
+Obtido: AML
+
+Amostra 69
+Esperado: AML
+Obtido: AML
+
+Amostra 70
+Esperado: AML
+Obtido: AML
+
+Amostra 71
+Esperado: AML
+Obtido: AML
+

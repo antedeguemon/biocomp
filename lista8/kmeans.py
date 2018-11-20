@@ -14,12 +14,6 @@ class KMeans:
 	def add_point(self, point):
 		self.points.append(point)
 
-	def get_median(self, axis):
-		total = 0
-		for point in self.points:
-			total += point[axis]
-		return total/len(self.points)
-
 	def get_max_min(self, axis):
 		# get max and min from an axis
 		min_point, max_point = None, None
@@ -64,7 +58,7 @@ class KMeans:
 			#print "Min cluster to ", point, ":", min_cluster
 
 	def generate(self):
-		print "Generating..."
+		#print "Generating..."
 		# update clusters to median of its people based on last predictions
 		for axis in range(self.num_axis()):
 			for cluster in range(len(self.clusters)):
@@ -76,18 +70,3 @@ class KMeans:
 
 		# updates predictions
 		self.generate_first()
-"""
-means = KMeans(2)
-means.add_point([1, 1])
-means.add_point([2, 1])
-means.add_point([8, 10])
-means.add_point([9, 10])
-means.generate_first()
-print means.clusters
-means.generate()
-print means.clusters
-means.generate()
-print means.clusters
-means.generate()
-print means.clusters
-"""

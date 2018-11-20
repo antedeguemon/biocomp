@@ -46,6 +46,7 @@ class KMeans:
 			self.clusters = []
 			for mean in range(self.means):
 				self.clusters.append(self.random_point())
+		self.predictions = {}
 		for i in range(len(self.points)):
 			point = self.points[i]
 			min_dist, min_cluster = None, None
@@ -60,7 +61,7 @@ class KMeans:
 			except:
 				self.predictions[min_cluster] = []
 				self.predictions[min_cluster].append(i)
-			print "Min cluster to ", point, ":", min_cluster
+			#print "Min cluster to ", point, ":", min_cluster
 
 	def generate(self):
 		print "Generating..."
@@ -75,7 +76,7 @@ class KMeans:
 
 		# updates predictions
 		self.generate_first()
-
+"""
 means = KMeans(2)
 means.add_point([1, 1])
 means.add_point([2, 1])
@@ -89,3 +90,4 @@ means.generate()
 print means.clusters
 means.generate()
 print means.clusters
+"""
